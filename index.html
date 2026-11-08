@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UNO No Mercy</title>
+  <meta name="description" content="UNO No Mercy multijugador en el navegador: crea una sala o únete con un código. Sin instalar nada.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+  <div id="app"></div>
+  <footer class="site-footer">
+    <div class="footer-in footer-grid">
+      <div>
+        <a class="footer-brand" href="#" aria-label="UNO No Mercy, inicio"><img src="assets/logo.png" width="44" height="44" alt="" loading="lazy" decoding="async"><span>UNO No Mercy</span></a>
+        <p>Juego de cartas en línea para jugar con tus amigos.</p>
+      </div>
+      <div>
+        <b>Enlaces</b>
+        <a href="https://github.com/Mini-Buda-CH/Pruebas-uno" target="_blank" rel="noopener noreferrer">Código</a>
+        <a href="https://github.com/Mini-Buda-CH/Pruebas-uno#readme" target="_blank" rel="noopener noreferrer">Documentación</a>
+      </div>
+      <div>
+        <b>Redes y contacto</b>
+        <a href="https://github.com/Mini-Buda-CH" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.instagram.com/eldragondelcuento?stkn=MTExbDN1czFzYXduZg==" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="mailto:smolina.co@gmail.com">Contacto</a>
+      </div>
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="Chava" width="120" height="120" loading="lazy" decoding="async">
+      </div>
+    </div>
+    <div class="footer-in legal">
+      <span>© <span id="year"></span> Salvador Molina Corona.</span>
+      <span>Sin cuentas · Accesible · Adaptativo</span>
+    </div>
+  </footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="js/vendor/peerjs.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
